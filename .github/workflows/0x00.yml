@@ -374,5 +374,5 @@ jobs:
           git config user.name "NET-Sentinel Bot"
           git config user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
           git add --sparse dl/ Links.md
-          git -c committer.name="Diana-Cl" -c committer.email="135276904+Diana-Cl@users.noreply.github.com" commit -m "Add downloaded files via Panel [skip ci] at: $(TZ='Asia/Tehran' date '+%H:%M:%S') [skip ci]" || echo "No changes to commit"
+          git -c committer.name="Diana-Cl" -c committer.email="135276904+Diana-Cl@users.noreply.github.com" commit -m "Add downloaded files via Panel at: $(TZ='Asia/Tehran' date '+%H:%M:%S') [skip ci]" || echo "No changes to commit"
           git push origin HEAD:$BRANCH
